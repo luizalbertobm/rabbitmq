@@ -29,7 +29,7 @@ docker-compose exec php php index.php "other message"
 docker-compose exec php php index.php "one more message"
 ```
 
-This will send a 'Hello World!' message to the queue.
+This will send custom messages to the queue.
 
 ### Running the Consumer
 To run the consumer, execute the following command in your terminal:
