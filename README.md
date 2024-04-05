@@ -21,10 +21,12 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Running the Producer
 
-To run the producer, execute the following command in your terminal:
+To run the producer, execute the following command in your terminal how many times you want. You also can change the message each time.
 
 ```bash
 docker-compose exec php php index.php "my message"
+docker-compose exec php php index.php "other message"
+docker-compose exec php php index.php "one more message"
 ```
 
 This will send a 'Hello World!' message to the queue.
